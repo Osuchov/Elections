@@ -24,5 +24,13 @@ namespace Elections
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            presidentCandidate candidate = new presidentCandidate();
+            candidate.Name = "Pierwszy";
+            candidate.Surname = "Kandydat";
+            candidate.msgInfo();
+        }
     }
 }
